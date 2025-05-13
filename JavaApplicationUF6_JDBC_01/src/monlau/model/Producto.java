@@ -13,13 +13,12 @@ public class Producto {
     private String nombre;
     private Double precio;
 
-    public Producto(String nombre, Double precio) {
+    public Producto(int id, String nombre, Double precio) {
+        this.id = id;
         this.nombre = nombre;
         this.precio = precio;
     }
-    public Producto(int i,String Pollo, double d){
-
-    }
+    
 
     public void setId(Integer id) {
         this.id = id;
