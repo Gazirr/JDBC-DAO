@@ -10,10 +10,10 @@ public class ProductoManager {
         ProductoDAO producto =new ProductoDAOImpl();
         
         //agregar nuevo producto
-        producto.insert(new Producto(200,"Pollo",10.0));
+        producto.insert(new Producto(100,"Pollo",10.0));
         
         //obtener el producto con el ID = 100
-        Producto p = producto.read(200);
+        Producto p = producto.read(100);
         System.out.println(p);
     }
 }
